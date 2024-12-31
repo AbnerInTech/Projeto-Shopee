@@ -190,10 +190,10 @@
 <div class="container" id="adicionar-produto" style="display: none;">
   <form class="developer-form" onsubmit="addProduct(event)">
     <h2>Adicionar Novo Produto</h2>
-    <input type="text" id="productName" placeholder="Nome do produto" required>
-    <input type="text" id="productImage" placeholder="URL da imagem do produto" required>
-    <input type="text" id="productUrl" placeholder="URL do produto no Shopee" required>
-    <textarea id="productDescription" rows="4" placeholder="Descrição do produto" required></textarea>
+    <input type="text" id="productName" placeholder="Nome do produto" required autocomplete="off">
+    <input type="text" id="productImage" placeholder="URL da imagem do produto" required autocomplete="off">
+    <input type="text" id="productUrl" placeholder="URL do produto no Shopee" required autocomplete="off">
+    <textarea id="productDescription" rows="4" placeholder="Descrição do produto" required autocomplete="off"></textarea>
     <button type="submit">Adicionar Produto</button>
   </form>
 </div>
